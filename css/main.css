@@ -432,6 +432,9 @@ body {
   text-align: center;
   color: #ffffff;
 }
+.txtLg {
+  font-size: 38px;
+}
 .contact100-pic {
   width: 310px;
   padding-left: 75px;
@@ -468,6 +471,9 @@ body {
   align-items: center;
   padding: 15px;
 }
+.txtLg{
+
+}
 @media (max-width: 992px) {
   .opacityContainer {
     background: rgb(31 15 25 / 47%);
@@ -503,6 +509,16 @@ body {
 }
 .contact100-form-title {
   padding-bottom: 19px;
+}
+.txtLg {
+  font-size: 28px;
+}
+.bg-contactBg {
+  background-image: url(../images/bg-01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 }
 
@@ -546,6 +562,9 @@ body {
   .contact100-form-title {
     display: block;
     font-size: 40px;
+  }
+  .txtLg {
+    font-size: 50px;
   }
   .opacityContainer {
     background: rgb(31 15 25 / 47%);
