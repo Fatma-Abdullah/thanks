@@ -422,16 +422,15 @@ body {
 }
 .contact100-form-title {
   display: block;
+  width: 100%;
   font-size: 25px;
   color: #fff;
-  line-height: 2;
+  line-height: 1;
   text-align: left;
   padding-bottom: 36px;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
-  text-shadow: 0em 0em 5em #920c5c, 0em 0em 3em #920c5c, 0em 0em 2em #920c5c, 1px 1px 5px #920c5c, 0px 0px 10px #920c5c, 0px 0px 25px #920c5c, 0px 0px 45px #920c5c, 2px 1px 0px white, -1px 0px 2px rgb(0 0 0 / 50%);
-  /* text-align: center; */
 }
 .contact100-pic {
   width: 310px;
@@ -451,7 +450,7 @@ body {
   justify-content: center;
 }
 .opacityContainer {
-  background: rgb(31 15 25 / 47%);
+  background: rgb(31 15 25 / 66%);
   padding: 1em;
   border-radius: 42px;
   margin: 2em;
@@ -495,16 +494,16 @@ body {
     font-size: 14px;
   }
 }
-.wrap-contact100 {
-  display: flex;
-  justify-content: center;
-}
-@media (max-width: 700px) and (min-width: 300px) {
 
+@media (max-width: 700px) and (min-width: 300px) {
   .contact100-form-title {
     display: block;
     font-size: 16px;
-  }
+    line-height: 22px;
+}
+.contact100-form-title {
+  padding-bottom: 19px;
+}
 }
 
 .titleBold {
